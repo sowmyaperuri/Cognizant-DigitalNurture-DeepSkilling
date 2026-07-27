@@ -1,0 +1,67 @@
+Agile Methodology Notes
+-----------------------
+
+Agile is an iterative software development methodology that delivers working software in small increments with continuous customer feedback.
+Agile delivers small working parts frequently.
+
+Agile focuses on:
+Customer satisfaction
+Frequent software delivery
+Welcoming changing requirements
+Collaboration
+Working software
+Simplicity
+Continuous improvement
+Self-organizing teams
+
+The 4 Values:
+I W C R
+I → Individuals
+W → Working software
+C → Customer collaboration
+R → Responding to change
+
+Scrum is the most widely used Agile framework for managing software development projects.
+It divides work into short iterations called Sprints.
+A Sprint is a fixed time period during which a working product increment is developed.
+Typical duration:
+1–4 weeks
+
+Scrum Roles are Product Owner, Scrum Master, Development Team
+
+Scrum Events: Sprint planning
+	      Daily Scrum
+	      Sprint Review
+	      Sprint Retrospective
+
+Sprint Planning decides:
+What work will be done?
+Who will do it?
+How will it be completed?
+Output:
+Sprint Backlog
+
+Velocity: It is the total number of Story Points completed in one Sprint.
+
+Burndown Chart Shows:
+Remaining work
+Sprint progress over time
+If the graph moves downward steadily, the sprint is progressing well.
+
+User Story: It is a short description of a feature from the user's perspective.
+
+INVEST Principle:
+I  ->	Independent
+N  ->	Negotiable
+V  ->	Valuable
+E  ->	Estimable
+S  ->	Small
+T  ->	Testable
+
+Acceptance Criteria: It define the conditions that must be met for a User Story to be considered complete.
+Given–When–Then Format:
+Given the user is on the login page
+When the user enters valid credentials
+Then the user should be redirected to the dashboard.
+
+

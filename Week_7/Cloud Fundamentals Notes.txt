@@ -1,0 +1,95 @@
+Cloud Fundamentals Notes
+------------------------
+
+Cloud computing provides IT resources over the internet on demand with pay-as-you-go pricing.
+
+Characteristics:
+On-demand access
+Pay-as-you-go pricing
+Scalability
+High availability
+Resource sharing
+Elasticity
+
+Virtualization is the technology that allows multiple virtual machines (VMs) to run on a single physical computer.
+
+Service-Oriented Architecture (SOA): It is an architectural approach where software is built as independent services that communicate over a network.
+
+Cloud Service Models: 
+IaaS (Infrastructure as a Service): Provides infrastructure like virtual machines, storage, and networking. 
+Example: Amazon EC2, Microsoft Azure VM
+PaaS (Platform as a Service): Provides a platform for application development.
+Example: Google App Engine, Azure App Service
+SaaS (Software as a Service): Provides complete software over the internet.
+Example: Gmail, Microsoft 365
+
+Cloud Deployment Models:
+Public Cloud: Resources are shared over the internet.
+Example: AWS, Azure, GCP
+Private Cloud: Cloud infrastructure dedicated to one organization.
+Hybrid Cloud: Combination of Public and Private Cloud.
+Community Cloud: Shared by organizations with similar requirements.
+
+Amazon EC2 provides virtual servers (instances) in the cloud.
+
+AMI (Amazon Machine Image): An AMI is a template used to launch EC2 instances.
+It contains: Operating System, Applications, Configuration
+
+EC2 Instance Types - Choose instance types based on CPU, memory, and workload.
+Example: t2.micro (Free Tier)
+
+Security Groups act as virtual firewalls for EC2 instances.
+They control:
+Inbound traffic
+Outbound traffic
+
+A Key Pair is used to securely connect to an EC2 instance using SSH.
+
+Amazon ECS is a service for running and managing containerized applications.
+
+Amazon S3 is an object storage service used to store and retrieve files.
+Bucket: Container that stores objects.
+Object: Actual file stored inside a bucket.
+
+Amazon EBS provides block storage volumes for EC2 instances.
+Volume Types: gp2, gp3, io1
+
+Amazon VPC is an isolated virtual network inside AWS.
+
+Elastic Load Balancer (ELB): Distributes incoming traffic across multiple servers.
+Benefits:
+High availability
+Fault tolerance
+Load distribution
+
+Application Load Balancer (ALB): Works at Layer 7 (Application Layer)
+Supports: HTTP, HTTPS, Path-based routing
+Network Load Balancer (NLB): Works at Layer 4 (Transport Layer)
+Supports: TCP, UDP
+Provides ultra-high performance.
+
+Amazon RDS is a managed relational database service.
+
+Multi-AZ Deployment: Provides high availability using automatic failover.
+
+Amazon DynamoDB is a fully managed NoSQL database.
+
+AWS Lambda is a serverless computing service that runs code without managing servers.
+
+Serverless computing allows developers to run applications without managing servers.
+
+AWS API Gateway is a service for creating, publishing, managing, and securing REST APIs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

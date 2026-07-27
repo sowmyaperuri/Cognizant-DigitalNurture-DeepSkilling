@@ -1,0 +1,171 @@
+Git 1 :
+cd ~/Desktop/git\ assignment
+
+mkdir GitDemo
+
+cd GitDemo
+
+git init
+
+echo "Hello Git" > welcome.txt
+
+git status
+
+git add welcome.txt
+
+git status
+
+git commit -m "Initial commit"
+
+git remote add origin https://gitlab.com/<username>/GitDemo.git
+
+git remote -v
+
+git push -u origin master
+
+
+Git 2 :
+
+cd ~/Desktop/git\ assignment/GitDemo
+
+touch error.log
+
+mkdir log
+
+echo Test > log/log1.txt
+
+git status
+
+touch .gitignore
+
+notepad .gitignore
+
+git status
+
+git add .gitignore
+
+git commit -m "Added .gitignore"
+
+git push origin master
+
+Git 3 :
+
+Branching :
+git branch
+
+git branch GitNewBranch
+
+git checkout GitNewBranch
+
+notepad welcome.txt
+
+git status
+
+git add welcome.txt
+
+git commit -m "Updated welcome.txt in GitNewBranch"
+
+git status
+
+git checkout master
+
+git diff master GitNewBranch
+
+git difftool master GitNewBranch
+
+git merge GitNewBranch
+
+git log --oneline --graph --decorate
+
+git branch -d GitNewBranch
+
+git branch
+
+Merging :
+
+git checkout master
+
+git status
+
+git checkout -b GitWork
+
+echo "<message>Hello from GitWork</message>" > hello.xml
+
+notepad hello.xml
+
+git status
+
+git add hello.xml
+
+git commit -m "Added hello.xml in GitWork"
+
+git checkout master
+
+echo "<message>Hello from Master</message>" > hello.xml
+
+git add hello.xml
+
+git commit -m "Added hello.xml in master"
+
+git log --oneline --graph --decorate --all
+
+git diff master GitWork
+
+git difftool master GitWork
+
+git merge GitWork
+
+git mergetool
+
+git add hello.xml
+
+git commit -m "Resolved merge conflict"
+
+notepad .gitignore
+
+git add .gitignore
+
+git commit -m "Ignore backup files"
+
+git branch
+
+git branch -d GitWork
+
+git log --oneline --graph --decorate
+
+Git 4 : 
+
+git checkout master
+
+git status
+
+git branch
+
+git pull origin master
+
+git push origin master
+
+Git 5 : 
+
+git checkout master
+git status
+git branch
+git pull origin master
+git push origin master
+git log --oneline --decorate -5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

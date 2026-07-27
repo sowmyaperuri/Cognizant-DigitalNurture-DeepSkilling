@@ -1,0 +1,61 @@
+Gen AI Fundamentals Notes
+-------------------------
+
+Generative AI creates new content instead of only analyzing existing data.
+
+Features of Generative AI:
+Generates human-like text
+Creates images
+Generates code
+Summarizes documents
+Answers questions
+Translates languages
+Creates audio and videos
+
+A Large Language Model (LLM) is an AI model trained on massive amounts of text to understand and generate human language
+Examples: GPT, Gemini, Claude
+
+How LLMs Work:
+Large Text Data
+        ↓
+Model Training
+        ↓
+Learns Patterns
+        ↓
+User Prompt
+        ↓
+Generated Response
+
+A prompt is the instruction or question given to a Generative AI model.
+
+Prompt Engineering is the process of writing clear and effective prompts to obtain better AI responses.
+Example:
+Poor Prompt: Explain Java.
+Better Prompt: Explain Java in 100 words with three advantages and one real-world example.
+
+Types of Prompts:
+Zero-shot Prompting: No example is provided.
+One-shot Prompting: One example is given.
+Few-shot Prompting: Two or more examples are provided before asking the model to perform the task.
+
+Foundation Models are large pre-trained AI models that can be adapted for many different tasks using prompting or fine-tuning.
+Examples: GPT, Gemini, Llama
+
+A token is the smallest unit of text processed by an LLM.
+A sentence may be divided into several tokens depending on the tokenizer.
+
+Hallucination occurs when an AI model generates incorrect or fabricated information while presenting it as if it were true.
+
+Fine-tuning is the process of training a pre-trained AI model on a specific dataset to improve its performance for a particular task.
+
+Responsible AI means developing and using AI systems in a safe, fair, transparent, and ethical manner.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+Containerization using Docker Notes
+-----------------------------------
+
+Docker is a containerization tool that allows applications to run consistently across different environments.
+
+Containerization is the process of packaging an application along with all its libraries, dependencies, and configuration files into a single unit called a container.
+
+VM = Full Computer
+Docker = Application Package
+
+Docker Architecture:
+Developer
+      │
+Docker CLI
+      │
+Docker Engine (Daemon)
+      │
+-------------------------
+| Image | Container |
+-------------------------
+
+Components
+Docker CLI: Command-line interface used by the user.
+
+Docker Daemon: Background service that creates and manages containers.
+
+Docker Engine consists - Docker CLI, Docker Daemon, REST API
+
+Docker Image: read-only template used to create containers
+Characteristics: Immutable
+		 Contains application
+		 Contains dependencies
+		 Can create multiple containers
+
+Docker Container: A running instance of a Docker Image.
+Example: Image = Blueprint
+	 Container = Actual House
+
+Docker Repository: Stores Docker Images.
+
+Docker Registry: A service that stores Docker repositories.
+Example: Amazon ECR
+
+Parent Image vs Base Image:
+Base Image: Created from scratch.
+Parent Image: Built using another image.
+
+Dockerfile: A text file containing instructions to build a Docker Image automatically.
+
+Basic Docker Commands: 
+1.docker images
+2.docker ps
+3.docker ps -a
+4.docker run image
+5.docker stop id
+6.docker start id
+7.docker restart id
+8.docker rm id
+9.docker rmi image
+10.docker pull image
+
+Docker Compose: It is a tool used to run multiple containers together using a single YAML file.
+Example: version: '3'
+	 services:
+  	 app:
+           image: myapp
+  	 database:
+   	   image: mysql
+
+Docker Storage: Docker provides persistent storage using Volumes.
+
+Docker Networking: Docker allows containers to communicate.
+Default Networks: Bridge, Host, None
+
+Container Orchestration: It is the automatic management of multiple containers.
+
+Kubernetes: It is an orchestration platform used to deploy and manage Docker containers.
+
+Advantages of Docker:
+Lightweight
+Fast startup
+Portable
+Isolated applications
+Easy deployment
+Efficient resource utilization
+Consistent environments
+
+
+
+
+
+
+
+
+

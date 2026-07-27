@@ -1,0 +1,37 @@
+DevOps and CI/CD Notes
+----------------------
+
+DevOps: DevOps is a culture that improves collaboration between developers and operations teams by automating the software development lifecycle.
+
+FAST :  F - Faster Delivery
+	A - Automation
+	S - Stability
+	T - Team Collaboration
+
+Benefits of DevOps : Faster Releases, Automation, Better Quality, Collaboration, Reliability 
+
+Lifecycle: Plan -> Develop -> Build -> Test -> Release -> Deploy -> Operate -> Monitor -> plan (repeat)
+
+Continuous Integration (CI): Continuous Integration is the practice of automatically integrating developers' code changes into a shared repository several times a day.
+
+Continuous Delivery: Software is always ready for production and Deployment still requires manual approval.
+
+Continuous Deployment: Software is automatically deployed to production after passing all tests. No human intervention is required.
+
+Common DevOps Tools:
+Version Control  ->	Git
+Repository	 ->      GitHub, GitLab
+Build Tool	 ->      Maven, Gradle
+CI/CD		 ->      Jenkins, GitHub Actions, GitLab CI/CD, CircleCI
+Containerization ->	Docker
+Orchestration	 ->      Kubernetes
+Monitoring	 ->      Prometheus, Grafana
+
+Best Practices: 
+1. Use Version Control
+2. Automate Builds
+3. Automate Testing
+4. Continuous Monitoring
+5. Infrastructure as Code
+6. Continuous Feedback
+7. Small Frequent Releases

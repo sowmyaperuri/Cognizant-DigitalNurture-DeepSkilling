@@ -1,0 +1,66 @@
+Application Debugging Notes 
+---------------------------
+
+Debugging is the process of identifying and removing defects from software.
+
+A bug is an error or defect in a program that causes incorrect or unexpected behavior.
+
+The Eclipse Debugger is a built-in tool used to execute Java programs step by step and inspect program execution.
+
+Breakpoint: It is a marker placed on a line of code where program execution pauses.
+Purpose:
+Inspect variables
+Analyze program flow
+Find logic errors
+
+The Debug Perspective in Eclipse provides different views used during debugging.
+It includes:
+Debug View
+Variables View
+Breakpoints View
+Expressions View
+Console View
+
+Step Into: Executes the current line and enters the called method.
+Use - When you want to examine the internal working of a method.
+
+Step Over: Executes the current line without entering method calls.
+Use: When the called method is already trusted and doesn't need inspection.
+
+Step Return (Step Out): Executes the remaining part of the current method and returns to the calling method.
+Use: Exit the current method quickly.
+
+Continues program execution until the next breakpoint or until the program finishes.
+
+Temporarily pauses program execution during debugging.
+
+Variables View
+Displays:
+Local variables
+Object values
+Updated values during execution
+Useful for checking how variable values change step by step.
+
+Expressions View: Allows developers to evaluate custom expressions while debugging.
+
+Watch Expression: It continuously monitors the value of a selected variable or expression during debugging.
+
+Call Stack: It displays the sequence of method calls that led to the current execution point.
+
+Exception Breakpoints: It stop program execution when a specified exception occurs.
+
+Conditional Breakpoints: A breakpoint that pauses execution only when a specified condition is true.
+
+Debugging Techniques:
+Use breakpoints wisely
+Check variable values
+Inspect the call stack
+Step through the code
+Evaluate expressions
+Reproduce the issue consistently
+
+
+
+
+
+

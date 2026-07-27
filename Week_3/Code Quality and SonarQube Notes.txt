@@ -1,0 +1,119 @@
+Code Quality and SonarQube Notes
+--------------------------------
+
+Code Quality refers to how well source code is written in terms of:
+Readability
+Maintainability
+Reliability
+Security
+Performance
+Code Quality is the measure of how easy software is to understand, maintain, and improve.
+
+SonarQube is a platform that automatically analyzes source code and reports quality issues
+SonarQube:
+Improves code quality
+Detects bugs early
+Identifies security vulnerabilities
+Finds duplicate code
+Measures code coverage
+Encourages coding standards
+Improves maintainability
+
+Static Code Analysis analyzes source code without executing the program.
+Purpose:
+Find coding issues
+Improve maintainability
+Detect security problems
+
+Clean as You Code: The "Clean as You Code" principle means developers should ensure that newly written code is clean and free from quality issues, rather than trying to fix the entire existing codebase at once
+
+Architecture Components:
+Web Server: Displays SonarQube dashboard, User interface
+
+Compute Engine: Processes analysis reports, Calculates metrics
+
+Search Server: Uses Elasticsearch, Enables fast searching
+
+Sonar Database Stores: Analysis results, Project history, Quality metrics
+
+Sonar Scanner (Client): Scans source code and sends analysis results to the SonarQube Server.
+
+A Quality Profile is a collection of coding rules used to analyze source code.
+Examples: Java Rules, Spring Rules
+
+A Quality Gate is a set of conditions that determines whether the project passes or fails the quality requirements.
+Example Conditions:
+No critical bugs
+Test coverage above threshold
+Low duplication
+No major vulnerabilities
+
+Integrating SonarQube with Maven includes multiple steps like sonar.host.url
+
+SonarQube Dashboard - The dashboard displays:
+Bugs
+Vulnerabilities
+Code Smells
+Duplicated Code
+Test Coverage
+Quality Gate Status
+
+Code Metrics:
+Duplicate Code: Repeated code in multiple places.
+Problem: Difficult maintenance, Higher bug probability
+
+Cyclomatic Complexity: It measures the number of independent execution paths in a program.
+Higher complexity means:
+Harder to understand
+Harder to test
+Harder to maintain
+
+Test Coverage: Percentage of source code executed during testing.
+Higher coverage means Better tested code and Fewer hidden bugs
+
+Coding standards improve:
+Readability
+Consistency
+Team collaboration
+
+Sonar Logs provide information about:
+Analysis progress
+Errors
+Warnings
+Scan completion
+
+Reading Sonar Reports show:
+Overall project health
+Quality Gate result
+Critical issues
+Suggestions for improvement
+
+Best Practices:
+Follow coding standards
+Write unit tests
+Remove duplicate code
+Keep methods small
+Improve test coverage
+Fix Quality Gate failures
+Reduce code complexity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
